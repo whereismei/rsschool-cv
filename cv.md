@@ -4,11 +4,11 @@
 * **Email:** orelire@gmail.com
 * **Discord:** meimei
 ## Skills
-* HTML, CSS, JavaSfript
+* HTML, CSS, JavaScript
 * Git
 * Figma
 ## Education
-* Rolling Scopes School
+* Rolling Scopes School (in progress)
 * JavaScript on https://learn.javascript.ru/
 * HTML, CSS courses on https://code-basics.com/
 ## Code example
