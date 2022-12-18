@@ -58,11 +58,28 @@ header {
     list-style: none;
 }
 .nav-link {
+    display: inline-block;
     position: relative;
-    padding: 0 25px;
+    margin: 0 25px;
     line-height: 30px;
     text-decoration: none;
     color:rgb(255, 255, 255);
+}
+.nav-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: rgb(129, 26, 34);
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 .name {
     position: relative;
@@ -80,7 +97,7 @@ header {
     font-weight: 400;
 }
 .list {
-    line-height: 1.5;
+    line-height: 1.7;
     position: relative;
 }
 .list-item {
@@ -89,10 +106,10 @@ header {
     font-weight: 300;
 }
 #skills {
-    margin: 60px 0;
+    margin: 80px 0;
 }
 #languages {
-    margin: 60px 0;
+    margin: 80px 0;
 }
 .my-photo {
     width: 300px;
@@ -100,7 +117,7 @@ header {
     margin: 30px;
 }
 .link {
-    color: rgb(247, 203, 203);
+    color: rgb(223, 166, 241);
     text-decoration: none;
 }
 .section-header {
